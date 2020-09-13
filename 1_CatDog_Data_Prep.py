@@ -103,7 +103,8 @@ model.fit(x_train, y_train,
 
 
 
-preds = np.argmax(model.predict(x_test))
+preds = model.predict(x_test) # compare to y_test
+
 
 
 
