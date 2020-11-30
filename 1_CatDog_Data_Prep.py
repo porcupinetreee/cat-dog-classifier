@@ -14,7 +14,7 @@ import keras
 batch_size = 128
 epochs = 100
 
-TRAIN_DIR = "/home/turan/.config/spyder-py3/BTK_Keras/train/"
+TRAIN_DIR = "/home/turan/.config/spyder-py3/train/"
 os.chdir(TRAIN_DIR)
 filenames = os.listdir(TRAIN_DIR)
 d = 0
